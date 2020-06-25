@@ -29,7 +29,7 @@ form{
 	text-align: center;
 }
 
-form .textarea{
+form .textarea, textarea{
 	padding: 2px;
 	margin: 5px;
 	font-family: 'Merriweather', serif;
@@ -46,11 +46,12 @@ form .textarea{
 
 
 .card, form{
-	background-color: rgb(240,240,240);
+	background-color: rgba(240,240,240,0.2);
 	margin-bottom: 10px;
 	box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 	padding: 5px;
+	border-radius: 20px;
 }
 
 .del{

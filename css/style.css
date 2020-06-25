@@ -46,11 +46,12 @@ form .textarea, textarea{
 
 
 .card, form{
-	background-color: rgb(240,240,240);
+	background-color: rgba(240,240,240,0.8);
 	margin-bottom: 10px;
 	box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 	padding: 5px;
+	border-radius: 20px;
 }
 
 .del{
