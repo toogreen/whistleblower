@@ -45,6 +45,7 @@ input[type=button], input[type=submit], input[type=reset] {
 	  border-radius: 5px;
 	  width: 50%;
 	  font-size: 20px;
+	  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -62,7 +63,7 @@ input[type=button], input[type=submit], input[type=reset] {
 	box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
 	/* border: 1px solid grey; */
 	padding: 5px;
-	border-radius: 20px;
+	border-radius: 14px;
 }
 
 .del{
