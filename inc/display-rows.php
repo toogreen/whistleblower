@@ -1,5 +1,5 @@
 <?php
-include("inc/.connect_db.php");
+include("inc/connect_db.php");
 
 $sql = "SELECT blow_id, company, comment, position FROM blow ORDER BY blow_id ASC";
 $result = $conn->query($sql);
