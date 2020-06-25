@@ -9,9 +9,9 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (4035a4f, 2020-05-01)"
    sodipodi:docname="whistle.svg"
-   viewBox="0 0 218 231"
-   height="231"
-   width="218"
+   viewBox="0 0 190.24368 107.94576"
+   height="107.94576"
+   width="190.24368"
    id="svg368"
    version="1.1">
   <metadata
@@ -33,8 +33,8 @@
      inkscape:window-maximized="0"
      inkscape:window-y="23"
      inkscape:window-x="34"
-     inkscape:cy="110.84486"
-     inkscape:cx="88.326716"
+     inkscape:cy="58.896328"
+     inkscape:cx="72.703003"
      inkscape:zoom="1.244473"
      showgrid="false"
      id="namedview370"
@@ -49,6 +49,7 @@
      bordercolor="#666666"
      pagecolor="#ffffff" />
   <g
+     transform="translate(-15.623712,-51.948535)"
      id="g376"
      inkscape:label="Image"
      inkscape:groupmode="layer">
