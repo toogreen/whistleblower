@@ -6,7 +6,7 @@ $id=($_GET["id"]);
 $sql = "DELETE FROM blow WHERE blow_id=$id";
 
 if ($conn->query($sql) === TRUE) {
-  alert( "Record deleted successfully");
+  echo "Record deleted successfully";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }

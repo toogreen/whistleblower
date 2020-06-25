@@ -1,5 +1,5 @@
 <?php
-include("connect_db.php");
+include(".connect_db.php");
 
 
 $sql = "INSERT INTO blow (company, comment, position) VALUES ('$company', '$comment', '$position')";
