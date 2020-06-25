@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 
 
 
-$sql = "INSERT INTO blow (company, comment, position) VALUES ('company', 'comment', 'position')";
+$sql = "INSERT INTO blow (company, comment, position) VALUES ('$company', '$comment', '$position')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
@@ -29,6 +29,6 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 
-//header("Location: http://toogreen.ca");
-//exit();
+header("Location: ../index.php");
+exit();
 ?>
