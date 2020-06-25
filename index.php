@@ -29,6 +29,7 @@
 	<div class="container">
 		<div class="grid">
 			<!-- Left column -->
+			<div></div>
 
 			<!-- Middle colum (main content) -->
 			<div id="middle-column">
@@ -50,27 +51,21 @@
 						<input type="submit" name="submit">
 					</form>
 
-					<?php
-						include("inc/display-rows.php");
-					?>
-
-
-
-
 			</div>
 
 			<!-- Right columm -->
-
+			<div></div>
+		</div>
+		
+		<div class="grid">	
+			<?php include("inc/display-rows.php"); ?>
 		</div>
 	</div>
 
-	<br><br><br><br><br><br>
 
 
 	<div class="footer">
-		<div class="container">
 			Design and Code by <a href="http://www.toogreen.ca" target="_blank">toogreen</a> &copy;2020
-		</div>
 	</div>
 </body>
 

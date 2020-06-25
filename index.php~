@@ -38,39 +38,33 @@
 					<form action="inc/insert_blow.php" method="post">
 						<!-- input type="hidden" name="id" value="2" -->
 						<br>
-						Company:<br><br>
+						Company:<br>
 						<input type="textarea" name="company">
 						<br>
-						Comment:<br><br>
+						Comment:<br>
 						<input type="textarea" name="comment">
 						<br>
-						Position:<br><br>
+						Position:<br>
 						<input type="textarea" name="position">
 						<br>
 						<input type="submit" name="submit">
 					</form>
-
-					<?php
-						include("inc/display-rows.php");
-					?>
-
-
-
 
 			</div>
 
 			<!-- Right columm -->
 
 		</div>
+		
+		<div class="grid">	
+			<?php include("inc/display-rows.php"); ?>
+		</div>
 	</div>
 
-	<br><br><br><br><br><br>
 
 
 	<div class="footer">
-		<div class="container">
 			Design and Code by <a href="http://www.toogreen.ca" target="_blank">toogreen</a> &copy;2020
-		</div>
 	</div>
 </body>
 
