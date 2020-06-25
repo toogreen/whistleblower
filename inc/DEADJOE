@@ -1,0 +1,89 @@
+
+*** These modified files were found in JOE when it aborted on Thu Jun 25 09:06:35 2020
+*** JOE was aborted by UNIX signal 15
+
+*** File '../css/style.css'
+body{
+	margin: 0;
+}
+
+.header{
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	margin: auto;
+}
+
+.header h1{
+	font-family: Helvetica, Verdana, sans-serif;
+}
+
+.container{
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+form{
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.grid{
+		display: grid;
+		grid-template-columns: 33% 1fr 33%;
+		grid-gap:  20px;
+	}
+}
+
+
+.card{
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+.del{
+	position: relative
+	top: 0;
+	right: 0;
+}
+
+
+.footer{
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 20px;
+	background-color: black;
+	color: white;
+	margin: 0;
+}
+
+.footer p{
+	text-align: center;
+}
+
+.footer a{
+	color: white;
+	text-decoration: underline;
+}
+*** File '(Unnamed)'
+index.php
+css/style.css
+css/style.css
+css/style.css
+css/style.css
+delete_blow.php
+../index.php
+display-rows
+display-rows.php
+display-rows.php
+../css/style.css
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
