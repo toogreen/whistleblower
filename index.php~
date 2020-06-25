@@ -30,8 +30,11 @@
 		<div class="ad">
 			<iframe class="ad" data-aa="1416198" src="//ad.a-ads.com/1416198?size=120x60" scrolling="no" style="width:120px; height:60px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
 		</div>
-
-		<img id="logo" src="img/whistle.svg">
+		
+		<div id="logo">
+			<img src="img/whistle.svg">
+		</div>
+		
 		<h1>Whistle Blower</h1>
 
 	</div>
@@ -46,20 +49,22 @@
 
 					<!-- MAIN CONTENT HERE -->
 					<form action="inc/insert_blow.php" method="post">
+					
+						<h3>Blow The Whistle!</h3>
 						<!-- input type="hidden" name="id" value="2" -->
 						<p>
 							<!-- label>Company name:</label -->
-							<input class="textarea" type="textarea" name="company" placeholder="Company Name">
+							<input class="textarea" type="textarea" name="company" placeholder="Company To Shame">
 						</p>
 						
 						<p>
 							<!-- label>Comment:</label -->
-							<textarea name="comment" rows="6" cols="30" placeholder="My comment or story"></textarea>
+							<textarea name="comment" rows="6" cols="30" placeholder="Comment or Story Here"></textarea>
 						</p>
 						
 						<p>
 							<!-- label>My Position in the company:</label -->
-							<input class="textarea" type="textarea" name="position" placeholder="My position in the company">
+							<input class="textarea" type="hidden" name="position" placeholder="Your position" value="hidden">
 						</p>
 						
 						<p>					
@@ -76,7 +81,7 @@
 	
 	<div class="container">
 	
-		<h2>Preview Blowers:</h2>
+		<h2>Previous Blowers:</h2>
 		
 		<div class="grid">	
 			<?php include("inc/display-rows.php"); ?>

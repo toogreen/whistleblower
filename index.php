@@ -49,20 +49,22 @@
 
 					<!-- MAIN CONTENT HERE -->
 					<form action="inc/insert_blow.php" method="post">
+					
+						<h3>Blow The Whistle!</h3>
 						<!-- input type="hidden" name="id" value="2" -->
 						<p>
 							<!-- label>Company name:</label -->
-							<input class="textarea" type="textarea" name="company" placeholder="Company Name">
+							<input class="textarea" type="textarea" name="company" placeholder="Company To Shame">
 						</p>
 						
 						<p>
 							<!-- label>Comment:</label -->
-							<textarea name="comment" rows="6" cols="30" placeholder="My comment or story"></textarea>
+							<textarea name="comment" rows="6" cols="30" placeholder="Comment or Story Here (don't worry, this is completely anonymous, there are no cookies either to track you. Go ahead and spill the beans! :)"></textarea>
 						</p>
 						
 						<p>
 							<!-- label>My Position in the company:</label -->
-							<input class="textarea" type="textarea" name="position" placeholder="My position in the company">
+							<input class="textarea" type="hidden" name="position" placeholder="Your position" value="hidden">
 						</p>
 						
 						<p>					
@@ -79,7 +81,7 @@
 	
 	<div class="container">
 	
-		<h2>Preview Blowers:</h2>
+		<h2>Previous Blowers:</h2>
 		
 		<div class="grid">	
 			<?php include("inc/display-rows.php"); ?>
