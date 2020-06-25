@@ -1,0 +1,9 @@
+<?
+//include("includes/inc_editvar.php");
+include("inc/connect_db.php");
+
+$query="INSERT INTO blow VALUES ('', '$company','$comment','')";
+mysql_query($query);
+echo "Record saved";
+mysql_close();
+?>

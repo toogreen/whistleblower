@@ -35,10 +35,25 @@
 
 
 					<!-- MAIN CONTENT HERE -->
-					<form id="blow">
+					<form action="inc/insert_blow.php" method="post">
+						<!-- input type="hidden" name="id" value="2" -->
+						<br>
+						Company:<br>
+						<input type="textarea" name="company">
+						<br>
+						Comment:<br>
 						<input type="textarea" name="comment">
+						<br>
+						Position:<br>
+						<input type="textarea" name="position">
+						<br>
 						<input type="submit" name="submit">
 					</form>
+
+					<?php
+						include("inc/display-rows.php");
+					?>
+
 
 
 
@@ -49,7 +64,7 @@
 		</div>
 	</div>
 
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br>
 
 
 	<div class="footer">
