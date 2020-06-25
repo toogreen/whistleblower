@@ -17,6 +17,12 @@
   <defs
      id="defs286">
     <rect
+       id="rect504"
+       height="46.977517"
+       width="114.44147"
+       y="79.473244"
+       x="11.302861" />
+    <rect
        id="rect296"
        height="48.390375"
        width="189.67614"
@@ -31,7 +37,7 @@
      inkscape:window-width="1246"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="text294"
+     inkscape:current-layer="layer1"
      inkscape:document-units="mm"
      inkscape:cy="317.90393"
      inkscape:cx="415.3106"
@@ -134,5 +140,12 @@
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 67.987732,42.725424 9.45246,-6.874518 4.72624,1.396387 -9.6673,7.196758 z"
        id="path386" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect504);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text502"
+       xml:space="preserve"><tspan
+         x="11.302734"
+         y="89.128121"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Al Bayan';-inkscape-font-specification:'Al Bayan'">Whistle</tspan></tspan></text>
   </g>
 </svg>
