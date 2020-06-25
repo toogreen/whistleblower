@@ -21,7 +21,14 @@ body{
 
 form{
 	text-align: center;
+	margin-bottom: 60px;
 }
+
+form .textarea{
+	padding: 2px;
+	margin: 5px;
+}
+
 
 @media (min-width: 768px) {
 	.grid{
@@ -32,10 +39,12 @@ form{
 }
 
 
-.card{
+.card, form{
+	background-color: rgb(240,240,240);
 	margin-bottom: 10px;
-	box-shadow:10px 10px 5px rgba(0,0,0,0.2); 
+	box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
 	border: 1px solid grey;
+	padding: 5px;
 }
 
 .del{
@@ -47,7 +56,6 @@ form{
 
 .footer{
 	text-align: center;
-	position: fixed;
 	width: 100%;
 	left: 0;
 	bottom: 0;

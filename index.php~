@@ -45,7 +45,8 @@
 						
 						<p>
 							<!-- label>Comment:</label -->
-							<textarea name="comment" rows="6" cols="30" placeholder="My comment or story"></textarea>
+							<textarea class="textarea" name="comment" rows="6" cols="30" placeholder="My comment or story">
+							</textarea>
 						</p>
 						
 						<p>

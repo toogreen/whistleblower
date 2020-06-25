@@ -1,9 +1,9 @@
 <?php
 include("connect_db.php");
 
-$company=($_POST["company"]);
-$comment=($_POST["comment"]);
-$position=($_POST["position"]);
+$company=($_GET["company"]);
+$comment=($_GET["comment"]);
+$position=($_GET["position"]);
 
 $sql = "INSERT INTO blow (company, comment, position) VALUES ('$company', '$comment', '$position')";
 

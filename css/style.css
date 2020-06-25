@@ -17,11 +17,18 @@ body{
 	text-align: center;
 	width: 90%;
 	margin: auto;
+	margin-bottom: 60px;
 }
 
 form{
 	text-align: center;
 }
+
+form .textarea{
+	padding: 2px;
+	margin: 5px;
+}
+
 
 @media (min-width: 768px) {
 	.grid{
@@ -32,9 +39,10 @@ form{
 }
 
 
-.card{
+.card, form{
+	background-color: rgb(240,240,240);
 	margin-bottom: 10px;
-	box-shadow:10px 10px 5px rgba(0,0,0,0.2); 
+	box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
 	border: 1px solid grey;
 	padding: 5px;
 }
@@ -48,7 +56,6 @@ form{
 
 .footer{
 	text-align: center;
-	position: fixed;
 	width: 100%;
 	left: 0;
 	bottom: 0;
