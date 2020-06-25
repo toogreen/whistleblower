@@ -18,9 +18,17 @@
 	<!-- AdSense -->
 	<script data-ad-client="ca-pub-7401520800104068" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,900;1,300&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
 	<div class="header">
+
+		<! -- Bitcoin ad -->
+		<iframe data-aa="1416198" src="//ad.a-ads.com/1416198?size=120x60" scrolling="no" style="width:120px; height:60px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
+		<br>
 
 		<img src="img/whistle.svg">
 		<h1>Whistle Blower</h1>
@@ -66,6 +74,8 @@
 	</div>
 	
 	<div class="container">
+	
+		<h2>Preview Blowers:</h2>
 		
 		<div class="grid">	
 			<?php include("inc/display-rows.php"); ?>

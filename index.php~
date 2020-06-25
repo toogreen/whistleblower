@@ -22,6 +22,10 @@
 <body>
 	<div class="header">
 
+		<! -- Bitcoin ad -->
+		<iframe data-aa="1416198" src="//ad.a-ads.com/1416198?size=120x60" scrolling="no" style="width:120px; height:60px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
+		<br>
+
 		<img src="img/whistle.svg">
 		<h1>Whistle Blower</h1>
 
@@ -45,8 +49,7 @@
 						
 						<p>
 							<!-- label>Comment:</label -->
-							<textarea class="textarea" name="comment" rows="6" cols="30" placeholder="My comment or story">
-							</textarea>
+							<textarea name="comment" rows="6" cols="30" placeholder="My comment or story"></textarea>
 						</p>
 						
 						<p>
@@ -67,6 +70,8 @@
 	</div>
 	
 	<div class="container">
+	
+		<h2>Preview Blowers:</h2>
 		
 		<div class="grid">	
 			<?php include("inc/display-rows.php"); ?>
