@@ -27,10 +27,14 @@
 	<div class="header">
 
 		<! -- Bitcoin ad -->
-		<iframe data-aa="1416198" src="//ad.a-ads.com/1416198?size=120x60" scrolling="no" style="width:120px; height:60px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
-		<br>
-
-		<img src="img/whistle.svg">
+		<div class="ad">
+			<iframe class="ad" data-aa="1416198" src="//ad.a-ads.com/1416198?size=120x60" scrolling="no" style="width:120px; height:60px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
+		</div>
+		
+		<div id="logo">
+			<img src="img/whistle.svg">
+		</div>
+		
 		<h1>Whistle Blower</h1>
 
 	</div>
