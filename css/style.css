@@ -29,9 +29,10 @@ form{
 	text-align: center;
 }
 
-form .textarea{
+form .textarea, textarea{
 	padding: 2px;
 	margin: 5px;
+	font-family: 'Merriweather', serif;
 }
 
 

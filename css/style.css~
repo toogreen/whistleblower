@@ -32,6 +32,7 @@ form{
 form .textarea{
 	padding: 2px;
 	margin: 5px;
+	font-family: 'Merriweather', serif;
 }
 
 
@@ -56,6 +57,7 @@ form .textarea{
 	position: relative;
 	top:0;
 	right: 0;
+	float: auto;
 }
 
 
