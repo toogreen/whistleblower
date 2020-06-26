@@ -117,16 +117,14 @@ var vars = [], hash;
 }
 
 // Create lang variable from the script above
-var lang = vars['lang'];
+var edit = vars['edit'];
 
 // Display the value in a popup
 //alert(lang);
 
 	// Check if variable FR was passed in URL, if so then load the FR version of this page
-	if (lang == 'fr') {
-      $('#en, #show-fr').toggle("hide");
-      $('#show-en').toggle("show");
-      $('#fr').toggle("slide");
+	if (edit == 'yes') {
+	$('.del').toggle("show");
     };
 });
 

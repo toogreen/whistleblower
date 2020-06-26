@@ -71,6 +71,7 @@ input[type=button], input[type=submit], input[type=reset] {
 	top:0;
 	right: 0;
 	float: auto;
+	display: none;
 }
 
 
