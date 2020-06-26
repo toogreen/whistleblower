@@ -7,7 +7,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "<div class='card'>id: " . $row[$id]. "<br>Company: " . $row[$field1]. "<br>Comment: " . $row[$field2]. "<br>Position: " . $row[$field3] . "<div class='del'><a href='inc/delete_item.php?id=" . $row[$id] . "'>DELETE</a></div></div>";
+    echo "<div class='card'><h4>" . $row[$field1]. "</h4><p>" . $row[$field2]. "</p><div class='del'><a href='inc/delete_item.php?id=" . $row[$id] . "'>DELETE</a></div></div>";
   }
 } else {
   echo "0 results";
