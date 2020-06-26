@@ -83,7 +83,7 @@
 	
 	<div class="container">
 	
-		<h2>Previous Blowers:</h2>
+		<h2><?php echo $previous; ?></h2>
 		
 		<div class="grid">	
 			<?php include("inc/display-rows.php"); ?>
