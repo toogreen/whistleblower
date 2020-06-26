@@ -122,13 +122,13 @@ var vars = [], hash;
         }
 }
 
-// Create lang variable from the script above
+// Create edit variable from the script above
 var edit = vars['edit'];
 
 // Display the value in a popup
 //alert(lang);
 
-	// Check if variable FR was passed in URL, if so then load the FR version of this page
+	// Check if variable EDIT was passed in URL, if so then load the editable version of this page
 	if (edit == 'yes') {
 	$('.del').toggle("show");
     };
