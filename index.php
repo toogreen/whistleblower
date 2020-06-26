@@ -43,7 +43,10 @@
 	<div class="container">
 		<div class="grid">
 			<!-- Left column -->
-			<div></div>
+			<div>
+				<!-- Bitcoin ad -->
+				<iframe data-aa="1416908" src="//ad.a-ads.com/1416908?size=200x200" scrolling="no" style="width:200px; height:200px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
+			</div>
 
 			<!-- Middle colum (main content) -->
 			<div id="middle-column">
@@ -77,7 +80,10 @@
 			</div>
 
 			<!-- Right columm -->
-			<div></div>
+			<div>
+				<!-- Bitcoin ad -->
+				<iframe data-aa="1416910" src="//ad.a-ads.com/1416910?size=200x200" scrolling="no" style="width:200px; height:200px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
+			</div>
 		</div>
 	</div>
 	
