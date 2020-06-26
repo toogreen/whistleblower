@@ -32,7 +32,7 @@
 		</div>
 		
 		<div id="logo">
-			<img src="img/whistle.svg">
+			<img src="img/logo.svg">
 		</div>
 		
 		<h1>Whistle Blower</h1>
@@ -48,23 +48,23 @@
 
 
 					<!-- MAIN CONTENT HERE -->
-					<form action="inc/insert_blow.php" method="post">
+					<form action="inc/insert_item.php" method="post">
 					
 						<h3>Blow The Whistle!</h3>
-						<!-- input type="hidden" name="id" value="2" -->
+						
 						<p>
 							<!-- label>Company name:</label -->
-							<input class="textarea" type="textarea" name="company" placeholder="Company To Shame">
+							<input class="textarea" type="textarea" name="field1" placeholder="Company To Shame">
 						</p>
 						
 						<p>
 							<!-- label>Comment:</label -->
-							<textarea name="comment" rows="6" cols="30" placeholder="Comment or Story Here (don't worry, this is completely anonymous, there are no cookies either to track you. Go ahead and spill the beans! :)"></textarea>
+							<textarea name="field2" rows="6" cols="30" placeholder="Comment or Story Here (don't worry, this is completely anonymous, there are no cookies either to track you. Go ahead and spill the beans! :)"></textarea>
 						</p>
 						
 						<p>
 							<!-- label>My Position in the company:</label -->
-							<input class="textarea" type="hidden" name="position" placeholder="Your position" value="hidden">
+							<input class="textarea" type="hidden" name="field3" placeholder="Your position" value="hidden">
 						</p>
 						
 						<p>					

@@ -1,11 +1,11 @@
 <?php
 include("connect_db.php");
 
-$company=($_POST["company"]);
-$comment=($_POST["comment"]);
-$position=($_POST["position"]);
+$new_field1=($_POST["field1"]);
+$new_field2=($_POST["field2"]);
+$new_field3=($_POST["field3"]);
 
-$sql = "INSERT INTO blow (company, comment, position) VALUES ('$company', '$comment', '$position')";
+$sql = "INSERT INTO $table ($field1, $field2, $field3) VALUES ('$new_field1', '$new_field2', '$new_field3')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";

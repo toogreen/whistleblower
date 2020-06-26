@@ -48,7 +48,7 @@
 
 
 					<!-- MAIN CONTENT HERE -->
-					<form action="inc/insert_blow.php" method="post">
+					<form action="inc/insert_item.php" method="post">
 					
 						<h3>Blow The Whistle!</h3>
 						<!-- input type="hidden" name="id" value="2" -->
@@ -59,7 +59,7 @@
 						
 						<p>
 							<!-- label>Comment:</label -->
-							<textarea name="comment" rows="6" cols="30" placeholder="Comment or Story Here"></textarea>
+							<textarea name="comment" rows="6" cols="30" placeholder="Comment or Story Here (don't worry, this is completely anonymous, there are no cookies either to track you. Go ahead and spill the beans! :)"></textarea>
 						</p>
 						
 						<p>
