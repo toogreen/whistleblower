@@ -1,6 +1,8 @@
+<?php include("inc/variables.php"); ?>
+
 <html>
 <head>
-	<title>Whistle Blower</title>
+	<title><?php echo $pagetitle; ?></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
@@ -35,7 +37,7 @@
 			<img src="img/logo.svg">
 		</div>
 		
-		<h1>Whistle Blower</h1>
+		<h1><?php echo $pagetitle; ?></h1>
 
 	</div>
 	<div class="container">
@@ -50,7 +52,7 @@
 					<!-- MAIN CONTENT HERE -->
 					<form action="inc/insert_item.php" method="post">
 					
-						<h3>Blow The Whistle!</h3>
+						<h3><?php echo $subtitle; ?></h3>
 						
 						<p>
 							<!-- label>Company name:</label -->
