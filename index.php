@@ -26,7 +26,7 @@
 
 </head>
 <body>
-	<div class="header">
+	<header>
 
 		<! -- Bitcoin ad -->
 		<div class="ad">
@@ -39,8 +39,8 @@
 		
 		<h1><?php echo $pagetitle; ?></h1>
 
-	</div>
-	<div class="container">
+	</header>
+	<main class="container">
 		<div class="grid">
 			<!-- Left column -->
 			<div>
@@ -85,22 +85,27 @@
 				<iframe data-aa="1416910" src="//ad.a-ads.com/1416910?size=200x200" scrolling="no" style="width:200px; height:200px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
 			</div>
 		</div>
-	</div>
-	
-	<div class="container">
-	
-		<h2><?php echo $previous; ?></h2>
+
+		<div class="container">
 		
-		<div class="grid">	
-			<?php include("inc/display-rows.php"); ?>
+			<h2><?php echo $previous; ?></h2>
+			
+			<div class="grid">	
+				<?php include("inc/display-rows.php"); ?>
+			</div>
 		</div>
-	</div>
 
 
 
-	<div class="footer">
+	</main>
+	
+
+
+
+
+	<footer>
 			Design and Code by <a href="http://www.toogreen.ca" target="_blank">toogreen</a> &copy;2020
-	</div>
+	</footer>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
